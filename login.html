@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <!-- link file css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- file fontawesome -->
+    <link rel=" stylesheet" href="css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header>
+        <div class="container nav_top">
+            <a href="index.html" class="logo"><img src="img/logo-black.png" alt="Logo"></a>
+            <div class="search">
+                <form action="" class="search">
+                    <input type="search" placeholder="Search products... ">
+                    <button class="btnSearch">Search</button>
+                </form>
+            </div>
+            <div class="cart_header">
+                <div class="cart-info">
+                    <i class="fa-solid fa-bag-shopping" id="btnCart"></i>
+                    <span id="count_item">0</span>
+                </div>
+                <div class="cart_details">
+                    <p>My Cart</p>
+                    <p id="total_salary">$0</p>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-bottom">
+            <div class="container">
+                <i class="fa-solid fa-bars" id="menueOpen"></i>
+                <ul class="navlist">
+                    <i class="fa-solid fa-xmark" id="closeMenu"></i>
+                    <img src="img/logo-black.png" alt="">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="all_product.html" class="nav-link">All Products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="login_signup">
+                    <a href="#" class="login">
+                        Login <i class="fa-solid fa-right-to-bracket"></i>
+                    </a>
+                    <a href="Sign_up.html" class="signup">
+                        Sign Up <i class="fa-solid fa-user-plus"></i>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!--  Cart Start -->
+    <div class="cart">
+        <div class="head_cart">
+            <div class="info-head">
+                <h3>My Cart</h3>
+                <span id="countProduct">(0 item in Cart)</span>
+            </div>
+
+            <div class="close">
+                <i class="fa-solid fa-xmark" id="closeCart"></i>
+            </div>
+        </div>
+
+        <div class="cart_content">
+
+        </div>
+        <div class="cart_pay">
+            <div class="cart_info">
+                <span>Car Subtotal</span>
+                <span id="priceCartTotal">$0</span>
+            </div>
+            <div class="buttons_cart">
+                <button id="Proceed">PROCEEDED TO CHECKOUT</button>
+                <button id="shopMore">SHOP MORE</button>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  Cart End -->
+
+    <section class="login_signup">
+        <h2>Welcome Back</h2>
+        <form action="">
+            <input type="email" placeholder="Enter Email...">
+            <input type="password" placeholder="Enter Password...">
+        </form>
+        <p class="forget-text">forget Password?</p>
+        <button type="submit" class="logbtn">Login</button>
+        <p class="check">Don't have an account? <span><a href="Sign_up.html">Sign Up</a></span></p>
+        <button class="btn-login bg-dark "><i class="fa-brands fa-apple"></i> Login With Apple</button>
+        <button class="btn-login bg-trans "><i class="fa-brands fa-google"></i> Login With Google</button>
+
+
+    </section>
+
+
+
+
+    <!-- Fooer Start -->
+    <footer id="footer">
+        <a href="#" id="scrollUp"><i class="fa-solid fa-arrow-up"></i></a>
+        <!-- <a href="">
+            <h2>Back To Up</h2>
+        </a> -->
+        <div class="container">
+
+            <div class="grid_footer">
+                <div class="col_1">
+                    <img src="img/logo-white.png" alt="">
+                    <div class="details_info">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="detilas_numbers">
+                            <h3>Hotline Free 24/24:</h3>
+                            <h3>(+20) 122 505 4651</h3>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                </div>
+                <div class="col_2">
+                    <h3>FAQ & Help</h3>
+                    <a href="#">FAQS</a>
+                    <a href="#">Ordaring Trakings</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help Center</a>
+                </div>
+                <div class="col_3">
+                    <h3>Shipping & Delivery</h3>
+                    <a href="#">FAQS</a>
+                    <a href="#">Ordaring Trakings</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help Center</a>
+                </div>
+                <div class="col_4">
+                    <h3>Information</h3>
+                    <a href="#">FAQS</a>
+                    <a href="#">Ordaring Trakings</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="infoDeveloper">
+            <div class="container">
+                <p class="dev">Designer By || <a href="#"><span class="Developer">&copy;7amota</span></a></p>
+
+                <div class="payments">
+                    <img src="img/payment-1.png" alt="">
+                    <img src="img/payment-2.png" alt="">
+                    <img src="img/payment-3.png" alt="">
+                    <img src="img/payment-4.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- Fooer End -->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/swipper.js"></script>
+    <!-- link file js -->
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+let dataDiscount = data[i].discount
+  ? `<span class="sale">${
+      Math.floor(data[i].priceReal + data[i].priceSale / data[i].priceReal) *
+      100
+    }</span>`
+  : "";

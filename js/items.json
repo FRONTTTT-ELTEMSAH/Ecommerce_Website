@@ -1,0 +1,73 @@
+
+[
+    {   "id" : 0,   
+        "imgUrl" : "img/product/product-1",
+        "imgUrl2" : "img/product/product1",
+        "productName" :"Orginal Mobile Andorid Dual Smart Phone",
+        "priceSale": 165,
+        "priceReal": 200,
+        "discount": "30%"
+    },
+    {
+        "id" : 1,
+        "imgUrl" : "img/product/product-2",
+        "imgUrl2" : "img/product/product2",
+        "productName" :"Orginal Mobile Andorid Dual Smart Phone",
+        "priceSale": 100,
+        "priceReal": 120
+    },
+    {
+        "id" : 2,
+        "imgUrl" : "img/product/product-3",
+        "imgUrl2" : "img/product/product3",
+        "productName" :"Screen Tv Smart TV (Samsung) 55B",
+        "priceSale": "600",
+        "priceReal": "650",
+        "discount": "10%"
+    },
+    {
+        "id" : 3,
+        "imgUrl" : "img/product/product-4",
+        "imgUrl2" : "img/product/product4",
+        "productName" :"Smart Headphone high Quality",
+        "priceSale": 165,
+        "priceReal": 200,
+        "discount": "10%"
+
+    },
+    {
+        "id" : 4,
+        "imgUrl" : "img/product/product-5",
+        "imgUrl2" : "img/product/product5",
+        "productName" :"Smart Handfree high Quality",
+        "priceSale": 300,
+        "priceReal": 400,
+        "discount": "40%"
+    },
+    {
+        "id" : 5,
+        "imgUrl" : "img/product/product-6",
+        "imgUrl2" : "img/product/product6",
+        "productName" :"Orginal Mobile Andorid Dual Smart Phone",
+        "priceSale": 155,
+        "priceReal": 200
+    },
+    {
+        "id" : 6,
+        "imgUrl" : "img/product/product-7",
+        "imgUrl2" : "img/product/product7",
+        "productName" :"Orginal Mobile Andorid Dual Smart Phone",
+        "priceSale": 200,
+        "priceReal": 340,
+        "discount": "10%"
+    },
+    {
+        "id" : 7,
+        "imgUrl" : "img/product/product-8",
+        "imgUrl2" : "img/product/product8",
+        "productName" :"Smart Watch Original high quality",
+        "priceSale": 232,
+        "priceReal": 300
+    }
+]
+
